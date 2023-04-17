@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App{ 
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(207, 6, 222), orange) border-box;
+  padding-top: 50px;
+}
+input {
+  width: 70%;
+  height: 40px;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
+  margin: auto;
+  display: flex;
+  margin-bottom: 5px;
+  
+}
+
+ ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 70%;
+  margin: auto;
+  list-style-type: none;
+}
+li{
+  border-radius: 2px;
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  height: 65px;
+  margin: 5px;
+  background-color: white;
+  padding: 10px;
+
+}
+
+li img {
+  width: 35px;
+  height: 40px;
+}
+
+span {
+  display: flex;
+
+}
+
+@media (max-width: 400px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+  } 
+  .App {
+    height: 100%;
+  }
+}
