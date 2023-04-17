@@ -59,4 +59,8 @@ span {
   .App {
     height: 100%;
   }
+  li {
+    width: 110%;
+
+  }
 }
