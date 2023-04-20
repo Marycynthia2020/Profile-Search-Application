@@ -1,7 +1,7 @@
 import "./App.css";
 import Profile from "./Profile";
 import Input from "./Input";
-import { profileList } from "./Data";
+import { profileList } from "./data";
 import { useState } from "react";
 
 function App() {

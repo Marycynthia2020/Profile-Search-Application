@@ -7,7 +7,7 @@ const Profile = (props) => {
           <div>
             {person.id}
             <span>
-              {person.title}. {person.firstName} {person.lastName}
+              {person.title}. {person.firstName} {person.lastName} {/*should be bold */}
             </span>
           </div>
         </li>
